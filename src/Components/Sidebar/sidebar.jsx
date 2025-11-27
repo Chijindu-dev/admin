@@ -2,7 +2,15 @@ import React from 'react'
 import LineStyleIcon from '@mui/icons-material/LineStyle';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+import StorefrontIcon from '@mui/icons-material/Storefront';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import ErrorIcon from '@mui/icons-material/Error';
 import "./sidebar.css"
+import { CampaignOutlined, ErrorOutline, WorkOutline } from '@mui/icons-material';
 
 const sidebar = () => {
   return (
@@ -30,52 +38,55 @@ const sidebar = () => {
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarlist">
                     <li className="sidebarlistItems">
-                        <LineStyleIcon className='sidebarIcon'/>
-                        home 
+                        <PermIdentityIcon  className='sidebarIcon'/>
+                        users
                     </li>
                     <li className="sidebarlistItems">
-                        <TimelineIcon className='sidebarIcon'/>
-                        Analytics
+                        < StorefrontIcon className='sidebarIcon'/>
+                        products
                     </li>
                     <li className="sidebarlistItems">
-                        <TrendingUpIcon className='sidebarIcon'/>
-                        Sales
+                        <AttachMoneyIcon className='sidebarIcon'/>
+                        transactions
                     </li>
-                   
+                    <li className="sidebarlistItems">
+                        <BarChartIcon className='sidebarIcon'/>
+                        report
+                    </li>
                 </ul>
             </div>
              <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Notifications</h3>
                 <ul className="sidebarlist">
                     <li className="sidebarlistItems">
-                        <LineStyleIcon className='sidebarIcon'/>
-                        home 
+                        <MailOutlineIcon className='sidebarIcon'/>
+                        Mail
                     </li>
                     <li className="sidebarlistItems">
-                        <TimelineIcon className='sidebarIcon'/>
-                        Analytics
+                        <CampaignOutlined className='sidebarIcon'/>
+                        feedback
                     </li>
                     <li className="sidebarlistItems">
-                        <TrendingUpIcon className='sidebarIcon'/>
-                        Sales
+                        <ChatBubbleOutlineIcon className='sidebarIcon'/>
+                        messages
                     </li>
                    
                 </ul>
             </div>
              <div className="sidebarMenu">
-                <h3 className="sidebarTitle">Dashboard</h3>
+                <h3 className="sidebarTitle">Staff</h3>
                 <ul className="sidebarlist">
                     <li className="sidebarlistItems">
-                        <LineStyleIcon className='sidebarIcon'/>
-                        home 
+                        <WorkOutline className='sidebarIcon'/>
+                        manage
                     </li>
                     <li className="sidebarlistItems">
                         <TimelineIcon className='sidebarIcon'/>
                         Analytics
                     </li>
                     <li className="sidebarlistItems">
-                        <TrendingUpIcon className='sidebarIcon'/>
-                        Sales
+                        <ErrorIcon className='sidebarIcon'/>
+                        report
                     </li>
                    
                 </ul>
