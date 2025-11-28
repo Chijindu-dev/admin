@@ -1,4 +1,7 @@
-  const data = [
+ import avatar from "./assets/avatar.jpg";  
+
+ 
+ const data = [
   {
     name: 'Jan',
     Sales: 4000,
@@ -43,3 +46,21 @@
 ];
 
 export default data
+
+
+
+
+ export const UserRows = [
+    { id: 1, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 2, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 3, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 4, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 5, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 6, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 7, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 8, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 9, Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+    { id: 10,Username: 'john Snow', avatar:avatar, email:"john@gmail.com", Status:"active", transcation:"$120.00"},
+  ];
+
+

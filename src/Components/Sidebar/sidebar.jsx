@@ -9,10 +9,12 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import ErrorIcon from '@mui/icons-material/Error';
+import {Link} from "react-router-dom"
 import "./sidebar.css"
 import { CampaignOutlined, ErrorOutline, WorkOutline } from '@mui/icons-material';
 
 const sidebar = () => {
+
   return (
     <div className='sidebar'>
         <div className="sidebarWrapper">
@@ -37,9 +39,9 @@ const sidebar = () => {
              <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarlist">
-                    <li className="sidebarlistItems">
+                    <li  className="sidebarlistItems">
                         <PermIdentityIcon  className='sidebarIcon'/>
-                        users
+                     <Link to="userlist"> Users</Link>   
                     </li>
                     <li className="sidebarlistItems">
                         < StorefrontIcon className='sidebarIcon'/>
