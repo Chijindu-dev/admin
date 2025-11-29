@@ -39,14 +39,21 @@ const sidebar = () => {
              <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarlist">
+
+                   <Link  className='link' to="/userlist">
                     <li  className="sidebarlistItems">
                         <PermIdentityIcon  className='sidebarIcon'/>
-                     <Link to="userlist"> Users</Link>   
+                           user  
                     </li>
-                    <li className="sidebarlistItems">
+                   </Link>
+
+
+                    <Link to="/products"  className='link'>
+                        <li className="sidebarlistItems">
                         < StorefrontIcon className='sidebarIcon'/>
                         products
-                    </li>
+                        </li>
+                    </Link>
                     <li className="sidebarlistItems">
                         <AttachMoneyIcon className='sidebarIcon'/>
                         transactions
