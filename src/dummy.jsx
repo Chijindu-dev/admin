@@ -78,3 +78,20 @@ export default data
   { id: 9, name: "Interior Flush Door", img: doorImg,Status:"active", stock: 25, price: "$140" },
   { id: 10, name: "Smart Auto Door", img: doorImg,Status:"active", stock: 4, price: "$800" },
 ];
+
+
+
+export const ProductData = [
+  {
+    name: 'Jan',
+    Sales: 4200, // Wooden Door Sales
+  },
+  {
+    name: 'Feb',
+    Sales: 2000, // Steel Door Sales
+  },
+  {
+    name: 'Mar',
+    Sales: 3200, // Glass Door Sales
+  },
+];

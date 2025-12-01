@@ -39,3 +39,61 @@
     margin-right: 5px;
     font-size: 20px !important;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .mobileMenuIcon {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobileMenuIcon {
+    display: none;
+  }
+}
+
+
+/* =========================== */
+/* 💻 Tablets (slimmer sidebar) */
+/* =========================== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar {
+    min-width: 180px;
+  }
+  .sidebarlistItems {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+  .sidebarIcon {
+    margin-right: 8px;
+  }
+}
+
+/* =========================== */
+/* 🖥️ Large screens */
+/* =========================== */
+
+@media (min-width: 1440px) {
+  .sidebar {
+    min-width: 250px;
+  }
+  .sidebarlistItems {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+  .sidebarIcon {
+    font-size: 22px !important;
+    margin-right: 12px;
+  }
+}

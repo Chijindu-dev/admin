@@ -66,7 +66,7 @@ const productlist = () => {
             pagination: { paginationModel },
           }}
           pageSizeOptions={[8, 10]}
-          checkboxSelection
+          checkboxSelection 
           sx={{ border: 0 }}
         />
       </Paper>
