@@ -1,11 +1,69 @@
-.chart{
-    margin: 20px;
-    padding: 20px;
-    box-shadow: 3px 0px 9px 2px rgba(85,85,85,0.5);
-    -webkit-box-shadow: 3px 0px 9px 2px rgba(85,85,85,0.5);
-    -moz-box-shadow: 3px 0px 9px 2px rgba(85,85,85,0.5);
+.chart {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 3px 0px 9px 2px rgba(85, 85, 85, 0.5);
+  background: white;
+  border-radius: 6px;
 }
 
-.chartTitle{
-    margin-bottom: 20px;
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+/* ============================= */
+/* 📱 MOBILE RESPONSIVE */
+/* ============================= */
+@media (max-width: 600px) {
+  .chart {
+    width: 61%;
+    margin: 10px;
+    /* padding: 15px; */
+  }
+
+  .chartTitle {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  /* Slightly adjust aspect ratio to avoid tight height */
+  .chart .recharts-responsive-container {
+    aspect-ratio: 1 / 1 !important;
+  }
+}
+
+
+/* ============================= */
+/* 📟 TABLET RESPONSIVE */
+/* ============================= */
+@media (max-width: 900px) {
+  .chart {
+    margin: 15px;
+    padding: 18px;
+  }
+
+  .chartTitle {
+    font-size: 20px;
+  }
+
+  .chart .recharts-responsive-container {
+    aspect-ratio: 3 / 1 !important;
+  }
+}
+
+
+/* ============================= */
+/* 🖥 LARGE SCREENS */
+/* ============================= */
+@media (min-width: 1440px) {
+  .chart {
+    margin: 30px;
+    padding: 25px;
+  }
+
+  .chartTitle {
+    font-size: 26px;
+  }
 }
