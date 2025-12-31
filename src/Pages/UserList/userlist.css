@@ -41,3 +41,46 @@
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .userList {
+        flex: 1;
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .userlistEdit {
+        padding: 6px 10px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .userlistimg {
+        width: 28px;
+        height: 28px;
+        margin-right: 8px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .userList {
+        flex: 4;
+        padding: 15px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .userList {
+        padding: 30px;
+    }
+}

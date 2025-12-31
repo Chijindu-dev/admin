@@ -48,3 +48,87 @@
 .widgetlgDate,.widgetlgAmount{
     font-weight:300;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .widgetlarge {
+        padding: 15px;
+        overflow-x: auto;
+    }
+
+    .widgetlgTitle {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .widgetlgTable {
+        border-spacing: 10px;
+        font-size: 14px;
+        min-width: 500px;
+    }
+
+    .widgetlgTh {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+
+    .widgetlgImg {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+
+    .widgetlgUser {
+        font-size: 14px;
+    }
+
+    .widgetlgButton {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .widgetlgDate, .widgetlgAmount {
+        font-size: 13px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .widgetlarge {
+        padding: 18px;
+    }
+
+    .widgetlgTitle {
+        font-size: 20px;
+    }
+
+    .widgetlgTable {
+        border-spacing: 15px;
+    }
+
+    .widgetlgImg {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .widgetlarge {
+        padding: 25px;
+    }
+
+    .widgetlgTitle {
+        font-size: 24px;
+    }
+
+    .widgetlgTable {
+        border-spacing: 25px;
+    }
+}

@@ -119,3 +119,123 @@
     background-color: darkblue;
     color: white;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .product {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .productTitleContainer {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .productTitle {
+        font-size: 20px;
+    }
+
+    .productAddButton {
+        width: 70px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .productTop {
+        flex-direction: column;
+    }
+
+    .productTopRight {
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .productBottom {
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .productForm {
+        flex-direction: column;
+    }
+
+    .productFormLeft > input,
+    .productFormLeft > select {
+        width: 100%;
+    }
+
+    .productFormRight {
+        margin-top: 20px;
+    }
+
+    .productUploadImg {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .productButton {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .productInfoItem {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product {
+        flex: 4;
+        padding: 15px;
+    }
+
+    .productTop {
+        flex-direction: column;
+    }
+
+    .productTopRight {
+        margin: 15px 0;
+    }
+
+    .productBottom {
+        margin: 15px 0;
+    }
+
+    .productForm {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .productFormLeft {
+        flex: 1;
+        min-width: 250px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .product {
+        padding: 30px;
+    }
+
+    .productTopRight,
+    .productBottom {
+        margin: 30px;
+        padding: 25px;
+    }
+
+    .productUploadImg {
+        width: 120px;
+        height: 120px;
+    }
+}

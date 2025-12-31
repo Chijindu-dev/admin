@@ -29,3 +29,46 @@
     display: flex;
     align-items: center;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .productlist {
+        flex: 1;
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .productlistEdit {
+        padding: 6px 10px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .productlistimg {
+        width: 28px;
+        height: 28px;
+        margin-right: 8px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .productlist {
+        flex: 4;
+        padding: 15px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .productlist {
+        padding: 30px;
+    }
+}

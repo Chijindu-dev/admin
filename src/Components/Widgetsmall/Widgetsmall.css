@@ -54,3 +54,67 @@
     font-size: 16px;
     margin-right: 5px;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .widgetsmall {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .widgetsmallTitle {
+        font-size: 18px;
+    }
+
+    .widgetsmallListItem {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .widgetsmallBtn {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+
+    .widgetsmallIcon {
+        font-size: 14px;
+    }
+
+    .widgetsmallImg {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .widgetsmall {
+        margin-right: 0;
+        margin-bottom: 15px;
+        padding: 18px;
+    }
+
+    .widgetsmallTitle {
+        font-size: 20px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .widgetsmall {
+        padding: 25px;
+        margin-right: 30px;
+    }
+
+    .widgetsmallTitle {
+        font-size: 24px;
+    }
+}

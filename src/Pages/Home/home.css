@@ -6,3 +6,46 @@
     display: flex;
     margin: 20px;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .home {
+        flex: 1;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .homeWidget {
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 20px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home {
+        flex: 4;
+        padding: 15px;
+    }
+
+    .homeWidget {
+        flex-direction: column;
+        margin: 15px;
+        gap: 15px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .homeWidget {
+        margin: 30px;
+        gap: 30px;
+    }
+}

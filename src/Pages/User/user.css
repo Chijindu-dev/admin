@@ -141,3 +141,104 @@
     color: #fff;
     font-weight: 600;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .user {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .usertitleContainer {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .usertitle {
+        font-size: 20px;
+    }
+
+    .userAddButton {
+        width: 70px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .userContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .userShow,
+    .userUpdate {
+        padding: 15px;
+        margin-left: 0;
+    }
+
+    .userUpdateForm {
+        flex-direction: column;
+    }
+
+    .userUpdateInput {
+        width: 100%;
+    }
+
+    .userUpdateImg {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .userUpdateRight {
+        margin-top: 20px;
+    }
+
+    .userUpdateButton {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .user {
+        flex: 4;
+        padding: 15px;
+    }
+
+    .userContainer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .userUpdate {
+        margin-left: 0;
+    }
+
+    .userUpdateInput {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .user {
+        padding: 30px;
+    }
+
+    .userUpdateInput {
+        width: 300px;
+    }
+
+    .userUpdateImg {
+        width: 120px;
+        height: 120px;
+    }
+}

@@ -58,3 +58,77 @@
     display: block;
     align-self: flex-start;
 }
+
+/* =========================== */
+/* 📱 MOBILE RESPONSIVE */
+/* =========================== */
+@media (max-width: 767px) {
+    .newUser {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .newUserTitle {
+        font-size: 20px;
+    }
+
+    .newUserForm {
+        flex-direction: column;
+    }
+
+    .newUserItem {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .newUserItem > input {
+        padding: 15px;
+    }
+
+    .newUserGender > label {
+        font-size: 16px;
+        margin: 8px;
+    }
+
+    .newUserButton {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* =========================== */
+/* 📟 TABLET RESPONSIVE */
+/* =========================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .newUser {
+        flex: 4;
+        padding: 15px;
+    }
+
+    .newUserItem {
+        width: calc(50% - 10px);
+        min-width: 300px;
+    }
+
+    .newUserButton {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/* =========================== */
+/* 🖥 LARGE SCREENS */
+/* =========================== */
+@media (min-width: 1440px) {
+    .newUser {
+        padding: 30px;
+    }
+
+    .newUserItem {
+        width: 450px;
+    }
+
+    .newUserButton {
+        width: 350px;
+    }
+}
